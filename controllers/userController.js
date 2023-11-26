@@ -1,30 +1,30 @@
-const getAllUsers = (req, res) => {
+exports.getAllUsers = (req, res) => {
   res.status(500).json({
     status: "error",
-    message: "Route not implemented yet",
+    message: "This route is not yet defined!",
   });
 };
-const getUser = (req, res) => {
+exports.getUser = (req, res) => {
   res.status(500).json({
     status: "error",
-    message: "Route not implemented yet",
+    message: "This route is not yet defined!",
   });
 };
-const createUsers = (req, res) => {
+exports.createUser = (req, res) => {
   res.status(500).json({
     status: "error",
-    message: "Route not implemented yet",
+    message: "This route is not yet defined!",
   });
 };
-const updateUser = (req, res) => {
+exports.updateUser = (req, res) => {
   res.status(500).json({
     status: "error",
-    message: "Route not implemented yet",
+    message: "This route is not yet defined!",
   });
 };
-const deleteUser = (req, res) => {
+exports.deleteUser = (req, res) => {
   res.status(500).json({
     status: "error",
-    message: "Route not implemented yet",
+    message: "This route is not yet defined!",
   });
 };
